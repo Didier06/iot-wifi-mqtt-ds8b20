@@ -1,0 +1,31 @@
+{
+    "name": "iot wifi mqtt ds8B20",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Environment-and-Science-IoT": "github:tinkertanker/pxt-iot-environment-kit#v5.2.4",
+        "microbit-dstemp": "github:bsiever/microbit-dstemp#v0.1.26"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.26",
+        "tag": "v6.0.26",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/0ba979dd8a8f411c37c20b5fd4faba5b43ef51aa",
+        "target": "6.0.26",
+        "pxt": "9.0.17",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
